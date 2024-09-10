@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: #3d3d3d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: white;
+    /* height: 450px; */
+    padding: 0px 36px;
+    width: 600px;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+    margin: 20px;
+}
+.container img{
+    width: 150px;
+}
+.container p{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(60, 60, 60, 0.812);
+    text-align: center;
+}
+.container .buttons{
+    display: flex;
+    gap: 10px;
+}
+.container .buttons button{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 10px;
+    background: #FDCB50;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all linear 0.1s;
+}
+.buttons #copy-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+}
+.buttons #copy-btn img{
+    width: 17px;
+}
+.container #joke-btn{
+    padding: 10px 30px;
+}
+.container button:hover{
+    opacity: 0.9;
+}
+.container button:active{
+    transform: scale(0.95);
+}
